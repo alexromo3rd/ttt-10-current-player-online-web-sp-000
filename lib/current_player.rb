@@ -8,4 +8,6 @@ def turn_count(board)
   move_count
 end
 
-def current_player()
+def current_player(board)
+  if move_count % 2 == 0
+    
