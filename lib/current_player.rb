@@ -10,7 +10,7 @@ end
 
 def current_player(board)
   if move_count % 2 != 0
-    puts "It's player X's turn!"
+    "X"
   else
     puts "It's player O's turn!"
   end
